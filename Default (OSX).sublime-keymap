@@ -1,0 +1,8 @@
+[
+	{ "keys": ["super+d"], "command": "duplicate_line" },
+	{ "keys": ["ctrl+w"], "command": "expand_selection", "args": {"to": "word"} },
+
+	/// Packages
+	// ChangeQuotes
+	{ "keys": ["ctrl+shift+'"], "command": "change_quotes" }
+]
