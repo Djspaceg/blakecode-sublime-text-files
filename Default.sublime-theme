@@ -341,7 +341,7 @@
     },
     {
         "class": "minimap_control",
-        "viewport_color": [68, 68, 68, 96]
+        "viewport_color": [68, 158, 168, 96]
     },
     {
         "class": "text_line_control",
