@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ilib.setLocale("${1:zh-Hant-HK}");
+enyo.updateI18NClasses();
+]]></content>
+	<tabTrigger>locale</tabTrigger>
+	<scope>source.js</scope>
+	<description>Add Enyo/iLib code to change the current locale.</description>
+</snippet>
