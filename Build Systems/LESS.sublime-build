@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "~/Source/enyo/tools/lessc.sh ./all-package.js",
+	"working_dir": "${project_path:${folder}}/css"
+}
