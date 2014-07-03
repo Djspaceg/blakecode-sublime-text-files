@@ -1,0 +1,5 @@
+{
+  "jsdocs_deep_indent": false,
+  "jsdocs_indentation_spaces_same_para": 0,		// No "spaces", but use a [Tab] char instead.
+  "jsdocs_spacer_between_sections": true
+}

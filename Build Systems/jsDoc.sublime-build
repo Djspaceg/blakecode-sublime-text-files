@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "jsdoc -c ${folder}/../enyo/docs/_conf.json ${folder}/../enyo/docs/external.jsdoc ${file}",
+	"working_dir": "${project_path:${folder}}"
+}
