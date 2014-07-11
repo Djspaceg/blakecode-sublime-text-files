@@ -6,6 +6,9 @@
 	"font_face": "Inconsolata",
 	"font_size": 12,
 	"highlight_line": true,
+    "trim_trailing_white_space_on_save": true,
+    "shift_tab_unindent": true,
+    "rulers": [100],
 	"ignored_packages":
 	[
 		"Vintage"
