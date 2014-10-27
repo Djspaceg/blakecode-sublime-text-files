@@ -2,6 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Colorsublime-Themes/CodeWarrior.tmTheme",
+	"detect_slow_plugins": false,
 	"fade_fold_buttons": false,
 	"font_face": "Inconsolata",
 	"font_size": 12,
