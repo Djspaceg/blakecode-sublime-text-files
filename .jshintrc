@@ -1,23 +1,33 @@
 {
-	"globals": {
-		"enyo": false,
-		"$L": false,
-		"moon": false,
-		"ilib": false
-	},
-	"es3": true,
-	"evil": false,
-	"regexdash": true,
-	"browser": true,
-	"wsh": false,
-	"trailing": false,
-	"sub": true,
-	"eqnull": true,
-	"laxbreak": true,
-	"laxcomma": true,
-	"curly": true,
-	"indent": 4,
-	"newcap": true,
-	"undef": true,
-	"unused": "vars"
+  // The plugin looks for a .jshintrc file in the same directory as the source
+  // file you're prettifying (or any directory above if it doesn't exist, or in
+  // your home folder if everything else fails) and uses those options along
+  // the default ones.
+
+  // Details: https://github.com/victorporof/Sublime-JSHint#using-your-own-jshintrc-options
+  // Example: https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+  // Documentation: http://www.jshint.com/docs/options/
+
+  "globals": {
+    "enyo": false,
+    "$L": false,
+    "moon": false,
+    "ilib": false
+  },
+  "es3": true,
+  "esnext": true,
+  "evil": false,
+  "regexdash": true,
+  "browser": true,
+  "wsh": false,
+  "trailing": false,
+  "sub": true,
+  "eqnull": true,
+  "laxbreak": true,
+  "laxcomma": true,
+  "curly": true,
+  "indent": 4,
+  "newcap": true,
+  "undef": true,
+  "unused": "vars"
 }
