@@ -1,6 +1,6 @@
 {
 	// "shell_cmd": "~/Source/enyo/tools/lessc.sh ./all-package.js",
-	"shell_cmd": "${project_path:${folder}}/../enyo/tools/lessc.sh ./all-package.js --ri",
+	"shell_cmd": "${project_path:${folder}}/../enyo/tools/lessc.sh ./all-package.js",
 	// "shell_cmd": "${project_path:${folder}}/../enyo/tools/lessc.sh ./all-package.js",
 	"file_regex": "^\\s+Error: \\x07(...*?):(\\d+):(\\d+)(?:[\\n\\r]\\s+(.*))?$",
 	"working_dir": "${project_path:${folder}}/css"

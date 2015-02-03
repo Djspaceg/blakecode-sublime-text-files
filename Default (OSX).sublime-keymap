@@ -2,7 +2,8 @@
 	{ "keys": ["super+d"], "command": "duplicate_line" },
 	{ "keys": ["ctrl+w"], "command": "expand_selection", "args": {"to": "word"} },
 
-	/// Packages
+	{ "keys": ["ctrl+shift+r"], "command": "insert_snippet", "args": { "name": "Packages/User/Snippits/LESS/resolutionIndependence.sublime-snippet" } },
+  	/// Packages
 	// ChangeQuotes
 	{ "keys": ["ctrl+shift+'"], "command": "change_quotes" }
 ]

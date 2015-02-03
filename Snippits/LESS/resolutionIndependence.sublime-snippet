@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[enyo.ri.scale($SELECTION)]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>rI</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.less</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Resolution Independence Function</description>
+</snippet>
