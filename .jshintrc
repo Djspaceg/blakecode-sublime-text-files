@@ -9,10 +9,8 @@
   // Documentation: http://www.jshint.com/docs/options/
 
   "globals": {
-    "enyo": false,
-    "$L": false,
-    "moon": false,
-    "ilib": false
+    "require": false,
+    "module": false
   },
   "es3": true,
   "esnext": true,
