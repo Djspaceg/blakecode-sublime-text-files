@@ -26,6 +26,7 @@
   "curly": true,
   "indent": 4,
   "newcap": true,
+  "globalstrict": false,
   "undef": true,
-  "unused": "vars"
+  "unused": true
 }
