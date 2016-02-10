@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "enyo-pack -L [resolution-independence] -l error --no-cache | bunyan -o short",
+	"working_dir": "${project_path:${folder}}/../enyo-strawman/"
+}

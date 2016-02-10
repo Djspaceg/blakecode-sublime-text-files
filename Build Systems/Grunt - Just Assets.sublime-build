@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "grunt less copy-assets"
+}
