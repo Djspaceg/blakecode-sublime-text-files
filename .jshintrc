@@ -27,6 +27,7 @@
   "indent": 4,
   "newcap": true,
   "globalstrict": false,
+  "strict": false,
   "undef": true,
   "unused": true
 }
