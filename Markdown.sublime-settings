@@ -1,3 +1,9 @@
 {
-	"font_face": "Open Sans Light",
+	"font_face": "Open Sans",
+	"font_size": 14,
+	"spell_check": true,
+	"word_wrap": true,
+	"wrap_width": 50,
+	"line_padding_top": 2,
+	"line_padding_bottom": 3,
 }

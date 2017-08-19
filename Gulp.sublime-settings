@@ -1,0 +1,9 @@
+{
+	// Override your environment PATH
+	"exec_args": {
+		"path": "/bin:/usr/bin:/usr/local/bin"
+	},
+
+	// Additional paths to search the gulpfile in (by default only the root of each project folder is used). Example: ["src", "nested/folder"]
+	"gulpfile_paths": []
+}

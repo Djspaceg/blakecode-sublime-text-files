@@ -1,0 +1,10 @@
+{
+	"debug": true,
+	"use_local_babel": true,
+	"node_modules": {
+		"windows": "C:/Program Files/nodejs/node_modules",
+		"linux": "/usr/lib/node_modules",
+		"osx": "/Users/blake/.nvm/versions/node/current/lib/node_modules"
+	},
+	"options": {}
+}

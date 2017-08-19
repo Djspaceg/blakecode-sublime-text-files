@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+export default ${1:Component};
+export {${1:Component}, ${1:Component} as ${1:Component}Base};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>exports</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,12 +1,42 @@
 {
+	"added_words":
+	[
+		"Skinnable"
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"bower_components/**"
+	],
 	"bold_folder_labels": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/Colorsublime-Themes/CodeWarrior.tmTheme",
+	"caret_style": "smooth",
+	"color_scheme": "Packages/User/SublimeLinter/CodeWarriorDark (SL).tmTheme",
 	"detect_slow_plugins": false,
 	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
 	"font_face": "Inconsolata",
 	"font_size": 12,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -15,6 +45,7 @@
 	[
 		100
 	],
+	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
 	"trim_trailing_white_space_on_save": true
 }

@@ -1,4 +1,5 @@
 {
-	"shell_cmd": "enyo pack -L [resolution-independence] -l error --no-cache | bunyan -o short",
+	"shell_cmd": "enyo pack -L [resolution-independence] -l error --no-cache",
+	// "shell_cmd": "enyo pack src/moonstone-samples -L [resolution-independence] -l error --no-cache",
 	"working_dir": "${project_path:${folder}}/../enyo-strawman/"
 }

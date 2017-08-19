@@ -3,7 +3,19 @@
 	{ "keys": ["ctrl+w"], "command": "expand_selection", "args": {"to": "word"} },
 
 	{ "keys": ["ctrl+shift+r"], "command": "insert_snippet", "args": { "name": "Packages/User/Snippits/LESS/resolutionIndependence.sublime-snippet" } },
-  	/// Packages
+	/// Packages
 	// ChangeQuotes
-	{ "keys": ["ctrl+shift+'"], "command": "change_quotes" }
+	{ "keys": ["ctrl+shift+'"], "command": "change_quotes" },
+
+	// Convert Line Endings - doesn't do shit. stupid thing.
+	{ "keys": ["super+alt+u"], "command": "set_line_ending_view", "args": {"type": "unix"} },
+	{ "keys": ["super+alt+shift+u"], "command": "set_line_ending_window", "args": {"type": "unix"} },
+
+	// Paste and Indent
+	// http://wesbos.com/5-sublime-text-tweaks-tips/
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste" },
+
+	{ "keys": ["ctrl+g"], "command": "gulp"},
+	{ "keys": ["ctrl+n"], "command": "find_under_expand"}
 ]
