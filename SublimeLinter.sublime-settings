@@ -31,8 +31,8 @@
                 "@disable": false,
                 "args": [],
                 "excludes": [
-                	"**/node_modules/**",
-                	".stylelintrc"
+                    "**/node_modules/**",
+                    ".stylelintrc"
                 ]
             }
         },
@@ -67,6 +67,7 @@
         "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
         "tooltip_theme_excludes": [],
         "tooltips": false,
+        "use_current_shell_path": false,
         "warning_color": "F0D000",
         "wrap_find": true
     }
