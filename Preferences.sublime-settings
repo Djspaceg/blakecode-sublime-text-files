@@ -3,6 +3,7 @@
 	[
 		"Skinnable"
 	],
+	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -34,19 +35,33 @@
 		"node_modules"
 	],
 	"font_face": "Inconsolata",
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Sublimerge Pro",
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		100
 	],
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
-	"theme": "Soda Dark 3.sublime-theme",
+	"theme": "SoDaReloaded Dark.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
