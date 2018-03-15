@@ -23,7 +23,7 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/User/SublimeLinter/CodeWarriorDark (SL).tmTheme",
+	"color_scheme": "Packages/Colorsublime-Themes/CodeWarriorDark.tmTheme",
 	"detect_slow_plugins": false,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
