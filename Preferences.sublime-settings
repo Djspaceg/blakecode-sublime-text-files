@@ -1,7 +1,13 @@
 {
 	"added_words":
 	[
-		"Skinnable"
+		"Skinnable",
+		"performant",
+		"checkmark",
+		"Scroller",
+		"unpause",
+		"ui",
+		"Checkbox"
 	],
 	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
@@ -37,7 +43,6 @@
 	"font_face": "Inconsolata",
 	"font_options":
 	[
-		"gray_antialias",
 		"subpixel_antialias"
 	],
 	"font_size": 12,
