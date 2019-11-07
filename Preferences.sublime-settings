@@ -1,8 +1,15 @@
 {
 	"added_words":
 	[
-		"Skinnable"
+		"Skinnable",
+		"performant",
+		"checkmark",
+		"Scroller",
+		"unpause",
+		"ui",
+		"Checkbox"
 	],
+	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -22,8 +29,9 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/User/SublimeLinter/CodeWarriorDark (SL).tmTheme",
+	"color_scheme": "Packages/Colorsublime-Themes/CodeWarriorDark.tmTheme",
 	"detect_slow_plugins": false,
+	"enable_inline_error_tips": true,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[
@@ -33,20 +41,34 @@
 		"CVS",
 		"node_modules"
 	],
-	"font_face": "Inconsolata",
-	"font_size": 12,
+	"font_face": "SF Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Sublimerge Pro",
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets_angle": true,
 	"rulers":
 	[
 		100
 	],
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
-	"theme": "Soda Dark 3.sublime-theme",
-	"trim_trailing_white_space_on_save": true
+	"theme": "SoDaReloaded Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"typescript_auto_format": true
 }

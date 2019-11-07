@@ -12,7 +12,7 @@
 				},
 				"gutter_icons":
 				{
-					"enabled": true,
+					"enabled": false,
 					"icon_style": "circle"
 				},
 				"phantoms":

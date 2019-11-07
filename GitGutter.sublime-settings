@@ -1,0 +1,5 @@
+// GitGutter Settings - User
+{
+	"show_line_annotation": false, // Disabled because it causes the lines below to shift down by 1px
+	"line_annotation_ruler": 1,
+}

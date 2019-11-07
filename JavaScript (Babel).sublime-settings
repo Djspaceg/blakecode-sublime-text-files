@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		"jsx",
-		"orig"
+		"orig",
+		"js"
 	]
 }
