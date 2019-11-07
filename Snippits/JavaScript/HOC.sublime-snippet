@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+const ${1:ComponentName} = hoc(${2:defaultConfig}, (configHoc, Wrapped) => {
+	return class extends React.Component {
+		static displayName = '${1:ComponentName}';
+
+		render () {
+			return (<Wrapped {...this.props} />);
+		}
+	};
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hoc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

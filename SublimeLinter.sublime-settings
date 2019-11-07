@@ -24,7 +24,10 @@
             "excludes": [
                 "dist/*",
                 "**/node_modules/**"
-            ]
+            ],
+            "env": {
+              "PATH": "/Users/blake/.nvm/versions/node/current/bin:/usr/local/bin"
+            }
         },
         "stylelint": {
             "disable": false,
@@ -32,7 +35,10 @@
             "excludes": [
                 "**/node_modules/**",
                 ".stylelintrc"
-            ]
+            ],
+            "env": {
+              "PATH": "/Users/blake/.nvm/versions/node/current/bin:/usr/local/bin"
+            }
         }
     },
 
@@ -85,18 +91,17 @@
         }
     ],
 
-    "syntax_map": {
-        "html (django)": "html",
-        "html (rails)": "html",
-        "html 5": "html",
-        "javascript (babel)": "javascript",
-        "js custom": "javascript",
-        "react": "javascript",
-        "magicpython": "python",
-        "php": "html",
-        "python django": "python",
-        "pythonimproved": "python"
-    }
+    // "syntax_map": {
+    //     "html (django)": "html",
+    //     "html (rails)": "html",
+    //     "html 5": "html",
+    //     "javascript (babel)": "javascript",
+    //     "react": "javascript",
+    //     "magicpython": "python",
+    //     "php": "html",
+    //     "python django": "python",
+    //     "pythonimproved": "python"
+    // }
 
     // "mark_style": "squiggly underline",
     // "passive_warnings": false,
