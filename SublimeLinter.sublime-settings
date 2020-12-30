@@ -1,6 +1,6 @@
 // SublimeLinter Settings - User
 {
-    // "debug": true,
+    "debug": true,
 
     // Available gutter themes:
     // Blueberry Cross

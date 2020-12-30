@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+import kind from '@enact/core/kind';
+import PropTypes from 'prop-types';
+
+const ${1:Name} = kind({
+	name: '${1:Name}',
+
+	propTypes: {
+		${2:propName}: PropTypes.func
+	},
+
+	defaultProps: {
+		${2:propName}: null
+	},
+
+	styles: {
+		css,
+		className: ${1:Name}
+	},
+
+	computed: {
+		className: ({${2:propName}, styler}) => styler.append(${2:propName})
+	},
+
+	render: ({children, ${2:propName}, ...rest}) => {
+		return (
+			<div {...rest} ${2:propName}={${2:propName}}>
+				{children}
+			</div>
+		);
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kind</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

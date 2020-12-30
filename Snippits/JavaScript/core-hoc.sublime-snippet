@@ -1,8 +1,20 @@
 <snippet>
 	<content><![CDATA[
-const ${1:ComponentName} = hoc(${2:defaultConfig}, (configHoc, Wrapped) => {
+import hoc from '@enact/core/hoc';
+
+const defaultConfig = {};
+
+const ${1:ComponentName} = hoc(defaultConfig, (configHoc, Wrapped) => {
 	return class extends React.Component {
 		static displayName = '${1:ComponentName}';
+
+		constructor (props) {
+			super(props);
+
+			this.state = {
+				${2:value}: null
+			};
+		}
 
 		render () {
 			return (<Wrapped {...this.props} />);

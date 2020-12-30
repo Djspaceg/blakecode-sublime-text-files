@@ -25,6 +25,9 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
+		".github/**",
+		"dist/**",
+		"node_modules/**",
 		"bower_components/**"
 	],
 	"bold_folder_labels": true,
@@ -37,6 +40,7 @@
 	[
 		".svn",
 		".git",
+		".github",
 		".hg",
 		"CVS",
 		"node_modules"
@@ -46,12 +50,12 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Sublimerge Pro",
+		"A File Icon",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -70,5 +74,5 @@
 	"shift_tab_unindent": true,
 	"theme": "SoDaReloaded Dark.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
-	"typescript_auto_format": true
+	"typescript_auto_format": false
 }
